@@ -8,43 +8,43 @@ This repository contains homework assignments for the Image Processing course us
 - **File**: `chessboard.py`
 - **Description**: Create an 8x8 chessboard pattern using nested for loops in OpenCV.
 
-  <img src="session26\chessboard\chessboard.jpg" width="200">
+  <img src="chessboard\chessboard.jpg" width="200">
 
 ### 2. Invert Dark and Light Colors for These Images
 - **Files**: `invert_colors.py`
 - **Description**: Inverts the dark and light colors of the provided images.
 
-  <img src="session26\Invert\inverted_image1.jpg" width="150">
-  <img src="session26\Invert\inverted_image2.jpg" width="150" height="150">
+  <img src="Invert\inverted_image1.jpg" width="150">
+  <img src="Invert\inverted_image2.jpg" width="150" height="150">
 
 
 ### 3. Rotate the Image 180 Degrees to Make Them Happy 
 - **Files**: `rotate_image.py`
 - **Description**: Rotates the provided image by 180 degrees to change the orientation and "mood" of the image.
 
-   <img src="session26\Rotate\rotated_image.jpg" width="250">
+   <img src="Rotate\rotated_image.jpg" width="250">
 
 ### 4. Design the First Character of Your Name
 - **File**: `design_character.py`
 - **Description**: Creates a custom design for the first character of your name using OpenCV.
 
-   <img src="session26\first_character\letter_N.jpg" width="250">
+   <img src="first_character\letter_N.jpg" width="250">
 
 ### 5. Generate a Gradient
 - **File**: `generate_gradient.py`
 - **Description**: Generates a gradient image using OpenCV.
-   <img src="session26\Gradient\gradient.jpg" width="250">
+   <img src="Gradient\gradient.jpg" width="250">
 
 ### 6. Add a Black Tape (Death Symbol) to an Image
 - **Files**: `add_black_tape.py`
 - **Description**: Adds a black tape symbol to the provided image to signify mourning.
 
-    <img src="session26\death_symbol\death_image.jpg" width="250">
+    <img src="death_symbol\death_image.jpg" width="250">
 
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/session26.git
+   git clone https://github.com/nakhani/Image-Processing/tree/d7b3dc51f5b52de08d845438bac3de3c7cc9cc4c/session26
    ```
 
 2. Navigate to the directory:
