@@ -33,6 +33,8 @@ This repository contains homework assignments for the Image Processing course us
 ### 5. Generate a Gradient
 - **File**: `generate_gradient.py`
 - **Description**: Generates a gradient image using OpenCV.
+
+
    <img src="Gradient\gradient.jpg" width="250">
 
 ### 6. Add a Black Tape (Death Symbol) to an Image
