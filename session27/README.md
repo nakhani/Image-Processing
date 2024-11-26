@@ -2,7 +2,7 @@
 
 ## 1. Make the Batman Logo
 
-**Task**: Create the iconic Batman logo.
+**Task**: Create the Batman logo.
 
 | INPUT | OUTPUT| 
 |:----------:|:----------:|
