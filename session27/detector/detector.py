@@ -4,7 +4,7 @@ import numpy as np
 lower_gray = 46
 upper_gray = 220
 
-lower_white = 221
+lower_white = 200
 upper_white = 255
 
 lower_black = 0
@@ -19,10 +19,14 @@ out = cv2.VideoWriter('detector/output.mp4', fourcc, 20.0, (640, 480))
 
 while True:
     _, frame = cap.read()
-    
-    gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-    new_gray_frame = cv2.cvtColor(gray_frame, cv2.COLOR_GRAY2BGR)
+
+    gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    contrast_frame = cv2.equalizeHist(gray_frame)
+
+  
+
+    new_gray_frame = cv2.cvtColor(contrast_frame, cv2.COLOR_GRAY2BGR)
 
     height, width, _ = frame.shape
 
@@ -36,7 +40,8 @@ while True:
     blurred_frame[rect_y:rect_y + rect_height, rect_x:rect_x + rect_width] = new_gray_frame[rect_y:rect_y + rect_height, rect_x:rect_x + rect_width]
 
  
-    point = gray_frame[rect_y:rect_y + rect_height, rect_x:rect_x + rect_width]
+    point = contrast_frame[rect_y:rect_y + rect_height, rect_x:rect_x + rect_width]
+    
 
     mask_gray = cv2.inRange(point, lower_gray, upper_gray)
     mask_white = cv2.inRange(point, lower_white, upper_white)
