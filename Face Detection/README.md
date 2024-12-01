@@ -34,7 +34,7 @@ Welcome to the Face Detection and Fun Filters project! This repository contains 
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   git clone https://github.com/nakhani/Image-Processing/tree/1b42df42485fd7b7ca4e32dc48c2ed0a0930c99d/Digital%20Image%20Processing_2
+   git clone https://github.com/nakhani/Image-Processing/tree/e51493b4911ddf24b3b249e217b0b64934644981/Face%20Detection
    ```
 
 2. Navigate to the directory:
