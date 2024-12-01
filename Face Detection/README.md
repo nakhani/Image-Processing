@@ -58,3 +58,4 @@ Welcome to the Face Detection and Fun Filters project! This repository contains 
 ## Technologies Used
 - Python 3
 - OpenCV
+- NumPy
