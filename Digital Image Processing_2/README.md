@@ -34,12 +34,12 @@
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   git clone https://github.com/nakhani/Image-Processing/tree/714785bed50b25b2b4ae1e323dbcdbce5624f94a/session27
+   git clone https://github.com/nakhani/Image-Processing/tree/1b42df42485fd7b7ca4e32dc48c2ed0a0930c99d/Digital%20Image%20Processing_2
    ```
 
 2. Navigate to the directory:
    ```sh
-   cd session27
+   cd Digital Image Processing_2
    ```
 
 3. Install the required packages:
