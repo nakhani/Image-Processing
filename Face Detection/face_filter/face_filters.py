@@ -102,7 +102,7 @@ current_filter = None
 while True:
     _, frame = cap.read()
 
-    key = cv2.waitKey(1) & 0xFF
+    key = cv2.waitKey(25) & 0xFF
     if key == ord('1'):
         current_filter = 'non_square_sticker'
     elif key == ord('2'):
