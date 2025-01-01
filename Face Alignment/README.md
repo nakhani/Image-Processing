@@ -26,8 +26,8 @@ This Folder contains various projects showcasing face alignments and image proce
 4. **Assignment _4: Big eyes and lips filter**
    - Zooming person's eyes and lips.
      
-     <img src="assignment4/input/person.JPG" width = "120" height= "200">
-     <img src="assignment4/output/result2.jpg" width = "120" height= "200">
+     <img src="assignment4/input/person.JPG" width = "150" height= "200">
+     <img src="assignment4/output/result2.jpg" width = "150" height= "200">
 
 
      
