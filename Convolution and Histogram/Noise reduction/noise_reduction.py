@@ -34,5 +34,5 @@ def mean_filtering(image_path):
     plt.show()
 
 image = mean_filtering("image.png")
-image_1 = mean_filtering("image1.png")
-image_2 = mean_filtering("image2.png")
+image_1 = mean_filtering("image1.jpg")
+image_2 = mean_filtering("image2.jpg")
