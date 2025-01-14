@@ -13,8 +13,7 @@
 ### 2. Foreground Focus, Blur Background 
   A blurred background draws the focus to what’s important, differentiating between a professional portrait and a casual snapshot.
 
-  <img src="Foreground focus, Blur background/image.jpg" width = "150">
-  <img src="Foreground focus, Blur background/result.png" width = "150">
+  <img src="Foreground focus, Blur background/image.jpg" width = "150"><img src="Foreground focus, Blur background/result.png" width = "150">
 
 
 ### 3. Edge Detection
