@@ -52,9 +52,6 @@
   The output:
 
    <img src="The Magic/Figure_1.png">
- 
- 
-
 
 ### 3. Median Filter
   Using median filter to reduce noise in images. The outputs:
