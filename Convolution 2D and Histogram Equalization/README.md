@@ -106,7 +106,7 @@
    
    <img src="Histogram Equalization/Outputs/Figure_2.png" >
 
-   **Image 1 Histogram**:
+   **Image 2 Histogram**:
 
    <img src="Histogram Equalization/Outputs/image_hist.png" >
   
@@ -117,11 +117,11 @@
    
   **Image Output**:
    
-   <img src="Histogram Equalization/Outputs/Figure_2CALHE.png" >
+   <img src="Histogram Equalization/Outputs/Figure_2CLAHE.png" >
 
-   **Image 1 Histogram**:
+   **Image Histogram**:
 
-   <img src="Histogram Equalization/Outputs/CALHE_imagehist.png" >
+   <img src="Histogram Equalization/Outputs/CLAHE_imagehist.png" >
 
 
 
@@ -147,7 +147,7 @@
    python avrg_filter.py  # For revealing hidden items on your image with different kernel values
    python median_filter.py  # For reducing noise on your image
    python histogram.py  # For improving your image contrast with Histogram Equalization 
-   python CALHE.py  # For improving your image contrast with CALHE (Contrast Limited Adaptive Histogram Equalization)
+   python CLAHE.py  # For improving your image contrast with CALHE (Contrast Limited Adaptive Histogram Equalization)
    ```
 
 ## Technologies Used
