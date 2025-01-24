@@ -24,7 +24,7 @@
 
    
 
- |<img src="Dice Recognition/image-_1_.png" width= "150"> |<img src="Dice Recognition\image-_2_.png " width= "100">|<img src="Dice Recognition/image.png" width= "200"> |<img src="Dice Recognition/image-_3_.png" width= "250">|
+ |<img src="Dice Recognition/image-_1_.png" width= "150"> |<img src="Dice Recognition\image-_2_.png " width= "100">|<img src="Dice Recognition/image.png" width= "180"> |<img src="Dice Recognition/image-_3_.png" width= "200">|
 |----------|----------|----------|----------|
 | 5,5,5,5,5 | 1,6,3 | 5,1 | 3 |
 
@@ -82,8 +82,10 @@
    python contourarea.py  # For using contourarea function in scratch 
    python findcontours.py  # For using findcontours function in scratch  
    python webcam.py # For using the funny webcam filter
-   jupyter notebook dice_recognition.ipynb # For recognizing dots in each Dice
-   jupyter histogramto_image.ipynb # For reconstructing image from its histogram
+   ```
+   ```sh
+    jupyter notebook dice_recognition.ipynb # For recognizing dots in each Dice
+    jupyter histogramto_image.ipynb # For reconstructing image from its histogram
    ```
 
 ## Technologies Used
