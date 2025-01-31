@@ -10,7 +10,7 @@ def draw_rainbow():
     
     radius = 300
     thickness = 30
-    colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+    colors = ['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'indigo']
     
     center_x, center_y = width // 2, height - 400
 
@@ -18,19 +18,19 @@ def draw_rainbow():
         if color == 'red':
             cv2.ellipse(red_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 255, thickness)
         elif color == 'orange':
-            cv2.ellipse(red_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 128, thickness)
-            cv2.ellipse(green_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 128, thickness)
+            cv2.ellipse(red_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 255, thickness)
+            cv2.ellipse(green_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 165, thickness)
         elif color == 'yellow':
             cv2.ellipse(red_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 255, thickness)
             cv2.ellipse(green_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 255, thickness)
         elif color == 'green':
             cv2.ellipse(green_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 255, thickness)
+        elif color == 'cyan':
+            cv2.ellipse(blue_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 255, thickness)
+            cv2.ellipse(green_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 255, thickness)
         elif color == 'blue':
             cv2.ellipse(blue_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 255, thickness)
         elif color == 'indigo':
-            cv2.ellipse(blue_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 128, thickness)
-            cv2.ellipse(red_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 64, thickness)
-        elif color == 'violet':
             cv2.ellipse(blue_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 255, thickness)
             cv2.ellipse(red_channel, (center_x, center_y), (radius, radius), 0, 0, 180, 128, thickness)
 
