@@ -10,12 +10,12 @@ blue_channel, red_channel, green_channel= cv2.split(image)
 for i, row in enumerate(zip(red_channel, green_channel, blue_channel)):
     r_val, g_val, b_val = row
     for j, pixel in enumerate(zip(r_val, g_val, b_val)):
-        if pixel == (0, 255, 255): 
+        if pixel == (255, 255, 0): 
             image[i, j] = [255, 0, 0] 
-        elif pixel == (255, 0, 255):  
+        elif pixel == (0, 255, 255):  
             image[i, j] = [0, 255, 0]  
-        elif pixel == (0, 0, 255):  
-            image[i, j] = [255, 255, 0]  
+        elif pixel == (255, 0, 255):  
+            image[i, j] = [0, 0, 255]  
 
 
 
