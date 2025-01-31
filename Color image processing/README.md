@@ -21,7 +21,7 @@
 
   The output:
 
-   <img src="" width="300">
+   <img src="rainbow/final_rainbow.png" width="300">
 
    
 
