@@ -65,7 +65,12 @@ This repository contains various assignments and projects related to image proce
 
   #### Output:
 
-   <img src="" width="300">
+   | input image | Cipher image | Decrypted image |
+   |:------------ |:--------------:| -------------:|
+   |<img src="Image Encryption/image.png" width="300">  |  <img src="Image Encryption/encrypted_image.bmp" width="300">     | <img src="Image Encryption/decrypted_image.jpg" width="285"> |
+   
+
+ 
 
 
 ## How to Run the Code

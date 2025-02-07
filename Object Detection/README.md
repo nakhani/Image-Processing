@@ -18,7 +18,7 @@ A notebook to count the number of dots on dice using image processing techniques
 
   #### Output:
 
-   | <img src="Dice Recognition/image-_3_.png" width="200">  | <img src="Dice Recognition/image-_2_.png" width="150">   | <img src="Dice Recognition/image-_1_.png" width="300">   | <img src="Dice Recognition/image.png" width="300">   |
+   | <img src="Dice Recognition/image-_3_.png" width="300">  | <img src="Dice Recognition/image-_2_.png" width="150">   | <img src="Dice Recognition/image-_1_.png" width="300">   | <img src="Dice Recognition/image.png" width="300">   |
  |------------|------------|------------|------------|
  | 5,5,5,5,5| 1,6,3| 5,1| 3|
 
@@ -73,7 +73,7 @@ A notebook to count the number of dots on dice using image processing techniques
     python webcam.py # For creating funny filter application
    ```
    ```sh
-    jupyter notebook histogramto_image.ipynb # For reconstructing image from histogram
+    jupyter notebook histogramto_image.ipynb # For reconstructing an image from histogram
     jupyter notebook dice_recognition.ipynb # For counting dots in each dice
    ```
 
